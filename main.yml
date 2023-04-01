@@ -1,0 +1,12 @@
+
+---
+- name: example file
+  hosts: all
+  become: yes
+  gather_facts: yes
+  tasks:
+   - name: installing git
+     yum:
+      name: git
+      state: latest
+...
