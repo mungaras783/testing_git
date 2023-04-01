@@ -9,4 +9,8 @@
      yum:
       name: git
       state: latest
+   - name: installing tomact9
+     yum:
+       name: tomcat9
+       state: present
 ...
