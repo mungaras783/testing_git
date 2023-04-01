@@ -13,4 +13,8 @@
      yum:
        name: tomcat9
        state: present
+   - name: Installing firewalld
+     yum:
+      name: firewalld
+      state: present
 ...
