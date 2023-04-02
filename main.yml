@@ -16,5 +16,6 @@
    - name: Installing firewalld
      yum:
       name: firewalld
-      state: present
+      state: absent
+   
 ...
